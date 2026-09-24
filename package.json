@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "anchor-link": "^3.6.0",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security"
+  }
+}
