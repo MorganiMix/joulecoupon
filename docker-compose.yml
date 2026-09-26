@@ -1,0 +1,11 @@
+services:
+  anchor-auth:
+    build: .
+    image: anchor-auth:latest
+    container_name: anchor-auth
+    ports:
+      - "3003:3003"
+    environment:
+      NODE_ENV: production
+      PORT: 3003
+    restart: unless-stopped
